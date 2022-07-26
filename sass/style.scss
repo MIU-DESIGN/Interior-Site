@@ -145,8 +145,6 @@ img {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0;
   @include sp {
     flex-direction: column;
     position: static;
