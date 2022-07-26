@@ -1,0 +1,23 @@
+@use "mixin";
+
+.footer {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  @include mixin.sp {
+    flex-direction: column;
+    position: static;
+  }
+}
+
+.footer_menu {
+  padding-bottom: 10px;
+  display: flex;
+  li + li {
+    margin-left: 30px;
+  }
+}
+
+.copywrite {
+  padding-bottom: 10px;
+}
