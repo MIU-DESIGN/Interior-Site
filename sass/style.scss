@@ -1,10 +1,11 @@
 @use "header";
+@use "mixin";
 
-@mixin sp {
-  @media(max-width: 900px){
-    @content;
-  }
-}
+// @mixin sp {
+//   @media(max-width: 900px){
+//     @content;
+//   }
+// }
 
 .wrapper {
   width: 100%;
@@ -38,7 +39,7 @@ img {
   grid-template-rows: repeat(2,1fr);
   justify-content: space-between;
   gap: 36px;
-  @include sp {
+  @include mixin.sp {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -61,7 +62,7 @@ img {
   font-size: 12px;
   display: flex;
   justify-content: space-between;
-  @include sp {
+  @include mixin.sp {
     flex-direction: column;
     position: static;
   }
