@@ -105,8 +105,14 @@ img {
   opacity: 0.7;
 }
 
+.sec_title {
+  font-size: 14px;
+  margin: 30px 0 30px;
+}
+
 .footer {
   font-size: 12px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }

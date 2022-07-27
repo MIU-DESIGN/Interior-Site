@@ -12,7 +12,7 @@
 .grid_wrap {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(1,1fr);
   justify-content: space-between;
   gap: 36px;
   @include mixin.sp {
@@ -35,4 +35,9 @@
   li + li {
     margin-left: 50px;
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
