@@ -136,6 +136,12 @@ img {
 
 body {
   position: relative;
+  height: 100vh;
+}
+@media (max-width: 900px) {
+  body {
+    height: auto;
+  }
 }
 
 @media (max-width: 900px) {
