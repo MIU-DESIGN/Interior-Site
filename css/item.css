@@ -140,15 +140,33 @@ img {
   display: flex;
   margin-bottom: 60px;
 }
+@media (max-width: 900px) {
+  .item_content {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 
 .item_fig {
-  max-width: 400px;
+  max-width: 360px;
   aspect-ratio: 1/1;
+}
+@media (max-width: 900px) {
+  .item_fig {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 }
 
 .item_text {
-  max-width: 400px;
-  margin-left: 80px;
+  max-width: 360px;
+  margin-left: 70px;
+}
+@media (max-width: 900px) {
+  .item_text {
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 .item_text p {
   margin-bottom: 40px;

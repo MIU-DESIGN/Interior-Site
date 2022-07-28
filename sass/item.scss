@@ -9,16 +9,28 @@
   margin-top: 60px;
   display: flex;
   margin-bottom: 60px;
+  @include mixin.sp {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
 .item_fig {
-  max-width: 400px;
+  max-width: 360px;
   aspect-ratio: 1 / 1;
+  @include mixin.sp {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
 }
 
 .item_text {
-  max-width: 400px;
-  margin-left: 80px;
+  max-width: 360px;
+  margin-left: 70px;
+  @include mixin.sp {
+    max-width: 100%;
+    margin-left: 0;
+  }
   p {
     margin-bottom: 40px;
   }
