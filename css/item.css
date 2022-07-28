@@ -138,11 +138,36 @@ img {
 .item_content {
   margin-top: 60px;
   display: flex;
+  margin-bottom: 60px;
 }
 
 .item_fig {
-  max-width: 300px;
+  max-width: 400px;
   aspect-ratio: 1/1;
+}
+
+.item_text {
+  max-width: 400px;
+  margin-left: 80px;
+}
+.item_text p {
+  margin-bottom: 40px;
+}
+.item_text dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item_text dt {
+  width: 25%;
+  font-weight: normal;
+}
+.item_text dd {
+  width: 75%;
+}
+
+.back_to_products {
+  display: block;
+  text-align: center;
 }
 
 .footer {
