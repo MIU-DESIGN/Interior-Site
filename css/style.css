@@ -106,7 +106,6 @@ img {
 @media (max-width: 900px) {
   .footer {
     flex-direction: column;
-    position: static;
   }
 }
 

@@ -5,6 +5,16 @@
 @use "title";
 @use "footer";
 
+body {
+  position: relative;
+}
+
+.item_detail {
+  @include mixin.sp {
+    padding-bottom: 160px;
+  }
+}
+
 .item_content {
   margin-top: 60px;
   display: flex;

@@ -119,7 +119,6 @@ img {
 @media (max-width: 900px) {
   .footer {
     flex-direction: column;
-    position: static;
   }
 }
 
@@ -135,8 +134,17 @@ img {
   padding-bottom: 10px;
 }
 
+body {
+  position: relative;
+}
+
 .products {
   font-size: 12px;
+}
+@media (max-width: 900px) {
+  .products {
+    padding-bottom: 120px;
+  }
 }
 
 .grid_wrap {

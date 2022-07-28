@@ -119,7 +119,6 @@ img {
 @media (max-width: 900px) {
   .footer {
     flex-direction: column;
-    position: static;
   }
 }
 
@@ -133,6 +132,16 @@ img {
 
 .copywrite {
   padding-bottom: 10px;
+}
+
+body {
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .item_detail {
+    padding-bottom: 160px;
+  }
 }
 
 .item_content {

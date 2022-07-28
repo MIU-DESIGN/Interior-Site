@@ -5,8 +5,15 @@
 @use "title";
 @use "footer";
 
+body {
+  position: relative;
+}
+
 .products {
   font-size: 12px;
+  @include mixin.sp {
+    padding-bottom: 120px;
+  }
 }
 
 .grid_wrap {
