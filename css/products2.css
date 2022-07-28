@@ -172,6 +172,8 @@ img {
 .footer {
   position: absolute;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=products2.css.map */

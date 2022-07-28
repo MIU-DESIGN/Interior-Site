@@ -1,0 +1,23 @@
+@use "header";
+@use "view";
+@use "btn";
+@use "mixin";
+@use "title";
+@use "footer";
+
+.item_content {
+  margin-top: 60px;
+  display: flex;
+}
+
+.item_fig {
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
