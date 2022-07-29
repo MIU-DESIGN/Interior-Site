@@ -129,6 +129,10 @@ img {
   opacity: 0.7;
 }
 
+body {
+  color: #333333;
+}
+
 .products {
   font-size: 12px;
 }

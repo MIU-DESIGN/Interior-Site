@@ -134,6 +134,10 @@ img {
   padding-bottom: 10px;
 }
 
+body {
+  color: #333333;
+}
+
 .products {
   font-size: 12px;
 }

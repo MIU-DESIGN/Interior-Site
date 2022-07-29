@@ -126,6 +126,10 @@ img {
   padding-bottom: 10px;
 }
 
+body {
+  color: #333333;
+}
+
 .company__info {
   width: 600px;
 }
